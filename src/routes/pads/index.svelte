@@ -6,7 +6,7 @@
   export async function preload({params, query}) {
     const pads = await getPads()
     return { pads }
-  }  
+  }
 </script>
 
 
